@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cart</title>
+
+    <style type="text/css" media="screen">
+        @import "assets/css/cart.css"
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8">
+    <link rel="Shortcut Icon" href="">
+    <link rel="stylesheet" type="text/css" href="assets/css/nav.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+
+<body style="background-color: 	#E0E0E0;">
+    <div class="menu-bar">
+        <ul>
+            <li class=""><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Sales</a>
+                <div class="sub-menu-1">
+                    <ul>
+                        <li><a href="p1.html">G Pro Wireless</a></li>
+                        <li><a href="p2.html">G903</a></li>
+                        <li><a href="p3.html">G502</a></li>
+                        <li><a href="p4.html">G703</a></li>
+                        <li><a href="p5.html">G603</a></li>
+                        <li><a href="p6.html">G304</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="ab.html">About us</a></li>
+            <li><a href="cart.html">car</a></li>
+            <li class=""><a href="member.html">會員中心</a></li>
+            <li class=""><a href="login.html">登入/註冊</a></li>
+        </ul>
+    </div>
+    <!---------------------------購物車--------------------------------->
+    <br><br>
+    <div class="Cart-border" style="margin-left: 200px;">
+        <div class="Cart">
+            <h1>Cart</h1>
+            <hr>
+            <div class="Cart-content">
+                <!------------------購買商品--------------------->
+
+
+                <div class="Cart-sell-1">
+                    <div class="Cart-sell" style="margin-left: 40px;">
+                        <img class="Cart-sell-pic" src="assets/pic/product/g603.jpg" alt="pure css3 slider" style="width: 200px;" />
+                    </div>
+                    <div class="Cart-right">
+                        <p class="text">產品名稱 : G603</p>
+                        <p class="text">產品價格 : 1280</p>
+                        <p class="text">數量 : 2</p>
+                    </div>
+                    <div class="Cart-del">
+                        <form>
+                            <input type="submit" class="Cart-del-btn" value="Delete">
+                        </form>
+                    </div>
+                </div>
+                <br><br><br>
+                <hr>
+
+
+                <!------------------確認購買--------------------->
+                <form action="">
+                    <input type="submit" class="Cart-confirm-btn" value="Confirm">
+                    <h2>付款方式</h2>
+                    <div class="payment" style="margin-left: 220px; margin-top: -45px;">
+                        <select size="1">
+						<option>貨到付款</option>
+						<option>超商繳費</option>
+						<option>郵局轉賬</option>
+						<option>信用卡</option>
+					</select>
+                    </div>
+                    <h3 style="color: #000;">輸入地址</h3>
+                    <div class="address">
+                        <textarea rows="2" cols="40" style="font-size:20px">
+					</textarea>
+                    </div>
+
+                </form>
+                <br>
+
+
+
+                <!------------------購物車空的時候--------------------->
+                <!--
+			<div class="Cart-empty">
+				<p class="text">
+					您的購物車沒有任何商品! 
+					<img class="arrow" src="pic/icon/arrow.svg" />
+					<a  class="back-btn" href="sale.html">Go shop!</a> 
+				</p>
+
+			</div>
+		    -->
+            </div>
+        </div>
+    </div>
+    <!-----------------------聯絡我們--------------------------------->
+    <footer>
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 col-xs-12 segment-one md-mb-30 sm-mb-30">
+                        <h3>連絡我們</h3>
+                        <p>地址：中原大學</p>
+                        <p>電話：265-XXXX</p>
+                        <p><a href="mailto:who@gmail.com">信箱：who@gmail.com</a></p>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 segment-two" md-mb-30 sm-mb-30>
+                        <h2>連結</h2>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="menu.html">Sales</a></li>
+                            <li><a href="ab.html">About us</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 segment-three md-mb-30 sm-mb-30">
+                        <h2>about</h2>
+                        <p>我們致力於帶給玩家最好的體驗</p>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 segment-four md-mb-30">
+                        <h2>回饋我們</h2>
+                        <P>想說的都在這</P>
+                        <form action="">
+                            <input type="email">
+                            <input type="submit" value="回饋">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <p class="footer-bottom-text">All right reserved by &copy;nnn.2020</p>
+    </footer>
+
+
+
+
+</body>
+
+
+
+</html>

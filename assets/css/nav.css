@@ -1,0 +1,192 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #D0D0D0;
+    background-position: center;
+    box-sizing: border-box;
+    font-family: "微軟正黑體";
+}
+
+.menu-bar {
+    background: #AE0000;
+    text-align: center;
+    font-size: 30px;
+}
+
+.menu-bar ul {
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+
+.menu-bar ul li {
+    width: 200px;
+    margin: 15px;
+    padding: 15px;
+}
+
+.menu-bar ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.active,
+.menu-bar ul li:hover {
+    background: #FFB5B5;
+    border-radius: 3px;
+}
+
+.sub-menu-1 {
+    display: none;
+}
+
+.menu-bar ul li:hover .sub-menu-1 {
+    display: block;
+    position: absolute;
+    background: #00DB00;
+    margin-top: 15px;
+    margin-left: -15px;
+    z-index: 10;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul {
+    display: block;
+    margin: 10px;
+    z-index: 10;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li {
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dashed #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: center;
+    z-index: 10;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child {
+    border-bottom: none;
+    z-index: 10;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover {
+    color: #0066CC;
+}
+
+
+/*footer*/
+
+p {
+    color: #999;
+    line-height: 25px;
+}
+
+h2,
+h {
+    font-size: 18px;
+}
+
+.footer-top {
+    background: #111;
+    padding: 80px 0;
+}
+
+.segment-one h3 {
+    font-family: "微軟正黑體";
+    color: #fff;
+    letter-spacing: 3px;
+    margin: 10px;
+}
+
+.segment-two h2 {
+    color: #fff;
+    font-family: "微軟正黑體";
+    text-transform: uppercase;
+}
+
+.segment-two h2:before {
+    content: '|';
+    color: #c65039;
+    padding-right: 10px;
+}
+
+.segment-two ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.segment-two ul li {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3) line-height: 40px;
+}
+
+.segment-two ul li a {
+    color: #999;
+    text-decoration: none;
+}
+
+.segment-three h2 {
+    color: #999;
+    font-family: "微軟正黑體";
+    text-transform: uppercase;
+}
+
+.segment-three h2:before {
+    content: '|';
+    color: #c65039;
+    padding-right: 10px;
+}
+
+.segment-three a {
+    background: #494848;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.segment-four {
+    color: #fff;
+    font-family: "微軟正黑體";
+    text-transform: uppercase;
+}
+
+.segment-four h2:before {
+    content: '|';
+    color: #c65039;
+    padding-right: 10px;
+}
+
+.segment-four form input[type=submit] {
+    background: #c65039;
+    border: none;
+    padding: 3px 15px;
+    margin-left: -5px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-bottom-text {
+    text-align: center;
+    background: #000;
+    line-height: 75px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .md-mb-30 {
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .sm-mb-30 {
+        margin-bottom: 30px;
+    }
+    .footer-top {
+        padding: 50px 0;
+    }
+}

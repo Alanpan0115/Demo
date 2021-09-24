@@ -1,0 +1,164 @@
+/*------------------購買商品---------------------*/
+.Cart{
+	width:800px;
+	margin-left:360px;
+	margin-top:60px;
+	font-family:Microsoft JhengHei;
+	border:2px;
+	border-radius:5px;
+	border-color:white;
+	border-style:solid;
+	overflow-y: scroll;
+}
+.Cart h3{
+	margin-top:30px;
+	margin-left:50px;
+	color:white;
+	font-size:45px;
+}
+.Cart hr{
+	margin-top:-50px;
+	margin-left:50px;
+	width:700px;
+}
+
+.Cart{
+	position:relative;
+
+}
+.Cart-sell-1{
+	margin-left:55px;
+	margin-bottom:20px;
+	margin-top:20px;
+	width:700px;
+	height:178px;
+	
+}
+.Cart-sell{
+	margin-bottom:20px;
+	margin-right:20px;
+	border-width:2px;
+	border-color:white;
+	border-style:solid;
+	padding:10px;
+	width:230px;
+	background-color:white;
+	font-weight:bold;
+	font-family:sans-serif;
+}
+.Cart-sell-pic{
+	width:230px;
+	height:150px;
+	vertical-align:middle;
+
+}
+.Cart-right{
+	margin-top:-185px;
+	margin-left:300px;
+}
+.text{
+	font-size:25px;
+	line-height:30px;
+	color:	#000000;
+}
+.Cart-del{
+	margin-top:-100px;
+	margin-left:600px;
+}
+.Cart-del-btn{
+	font-size:20px;
+	border:2px;
+	border-style:solid;
+	background-color:#DDDDDD;
+	color:	black;
+	border-radius:5px;
+}
+.Cart-del-btn:hover{
+	
+	background-color:#FF3333;
+	
+}
+.Cart-confirm-btn{
+	font-size:20px;
+	border:2px;
+	border-style:solid;
+	background-color:#DDDDDD;
+	color:	black;
+	border-radius:5px;
+	margin-top:5px;
+	margin-bottom:20px;
+	margin-left:650px;
+}
+.Cart-content h2{
+	margin-top:-50px;
+	margin-left:80px;
+}
+
+.payment{
+	margin-bottom:20px;
+	margin-top:-55px;
+	margin-left:200px;
+}
+select{
+	border:2px;
+	border-radius:5px;
+	border-style:solid;
+	width: 240px;height: 40px;
+	font-size:23px;
+	font-weight:bold;
+	font-family:sans-serif;
+}
+/*------------------空購物車--------------------*/
+.Cart-empty{
+	margin-left:50px;
+	font-size:40px;
+}
+.Cart-empty p{
+	color:white;
+	font-size:40px;
+}
+.arrow{
+
+	width:30px;
+	height:30px;
+}
+.back-btn {
+	margin-left:20px;
+	text-decoration:none;
+	font-size:40px;
+	color:white;
+}	
+.text a:hover{
+	color:#00F; 
+	text-decoration:underline;
+}
+/* ---------------------聯絡我們------------------- */
+
+.S3{
+	z-index:20;
+	position:relative;	
+	width:100%;
+	margin-top:198px;
+	height:150px;
+  	font-size:18px;
+  	color: black;
+  	line-height:40px;
+  	background-color:	#666666;
+  	color:white;
+}
+
+.S3-icon{
+	width:22px;
+	height:22px;
+	margin-right:20px;
+}
+.S3-contact-href{
+	position:absolute;
+	margin-top:25px;
+	margin-left:200px;
+	text-decoration:none;
+	color:white;
+	font-weight:bold;
+	font-family:sans-serif;
+}
+
